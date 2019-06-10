@@ -1,5 +1,29 @@
 import java.rmi.*;
-public interface AddServiceInterface extends Remote
+
+
+class Remote
 {
-public int sum(int n1,int n2)throws RemoteException;
+  
+  public int n1;
+  
+}
+
+
+
+public interface AddServiceInterface extends Remote
+
+
+
+
+{
+
+
+
+
+
+public int sum(int n1,int n2)
+
+
+
+throws RemoteException;
 }
